@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spike-spring-config
+  profiles:
+    active: development
+  cloud:
+    config:
+      env: development # optional
+      uri: http://localhost:8888 # optional
